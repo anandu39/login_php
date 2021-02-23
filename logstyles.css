@@ -1,0 +1,136 @@
+
+.container {
+  background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    position: relative;
+    overflow: hidden;
+    width: 820px;
+    max-width: 100%;
+    min-height: 530px;
+    margin-top: 140px;
+    margin-left: 290px;
+
+}
+
+  .part1 {
+      background-color: white;
+    border-radius: 10px 0px 0px;
+    box-shadow: 0 14px 28px;
+    position: relative;
+    overflow: hidden;
+    width: 410px;
+    max-width: 50%;
+    min-height: 530px;
+}
+  .part2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+  background-color: #FF416C;
+}
+.form1 {
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+}
+
+
+.social-item{  /*for defining the dimensions and styles of the social-icons.*/
+  margin: 5px ;
+  padding: 8px;
+  font-size: 30px;
+  display: inline-block;
+  width: 27px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 75%;  
+  border: 1px solid #DDDDDD;
+  color: black;
+
+}
+
+
+.txtfield { /* to define the dimensions and styles about the input text field*/
+    width: 100%;
+    padding: 15px;
+    margin: 2px 40px 10px 29px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.txt1{
+  width: 100%;
+  background: #f1f1f1;
+  padding: 15px;
+  margin: 15px 6px 0px 0px;
+  border:none;
+}
+
+.button1 {  /*to define the dimensions of the button(login and register.)*/
+  background-color: #ff4929;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 88%;
+  border-radius: 25px;
+  margin-top: inherit;
+}
+
+.body1m /*for giving background color to the register and login page*/
+{
+  background-color:#f5e8e9
+}
+
+
+.para2m { /*to style the para tag in login and register page.*/
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.head2m{ /*to style the head tag in login and register page.*/
+  margin-top: 35px;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: 'Balsamiq Sans';/*style using google font*/
+  text-align: center;
+}
+.headtag1{  /* used for styling the headtag in home page*/
+  color: #FF416C;    
+  text-align:center; 
+  margin-top: 200px; /*To move the content in head tag down to a desirable position*/
+  font-size: 40px;
+  font-family: 'Alfa Slab One';
+
+  }
+    
+.para1{ /*used for styling the paratag in home page*/
+  color: black;
+  text-align: center;
+  font-size: 44px; 
+  margin-top: -25px; /*To move the content in para tag up to a desirable position*/
+  font-family: atlata;
+  }
+.logtag{ /*To style the logout anchor tag home page*/
+  text-align: center;
+  margin-top: -65px; /*To move the content up to a desirable position*/
+  font-size: 20px;
+  font-family: 'Alfa Slab One';
+      
+  }
+.error{
+  color:red;
+} 
